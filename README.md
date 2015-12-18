@@ -25,8 +25,8 @@ Implementación de un servicio REST en Go con diferentes representaciones:
 ### Acceso
 
     curl http://localhost:8080
-    curl -H "Content-Type:application/json" http://localhost:8080
-    curl -H "Content-Type:text/xml" http://localhost:8080
+    curl -H "Accept:application/json" http://localhost:8080
+    curl -H "Accept:text/xml" http://localhost:8080
 
 
 ## TCP load balancer
